@@ -1,0 +1,29 @@
+.not-found-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-img {
+  width: 30%;
+}
+
+.not-found-heading {
+  color: #f8fafc;
+}
+
+.not-found-para {
+  color: #f8fafc;
+}
+
+@media screen and (max-width: 767px) {
+  .not-found-heading {
+    font-size: 28px;
+  }
+  .not-found-para {
+    font-size: 14px;
+  }
+}

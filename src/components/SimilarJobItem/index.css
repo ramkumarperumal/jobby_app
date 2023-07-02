@@ -1,0 +1,141 @@
+.similar-job-item-container {
+  background-color: #272727;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 35px;
+  margin-right: 35px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.similar-job-logo-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-company-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.similar-job-title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.similar-job-title {
+  color: #f7fafc;
+  font-size: 20px;
+}
+
+.similar-job-rating-container {
+  display: flex;
+}
+
+.similar-job-star-img {
+  color: #fbbf24;
+  height: 18px;
+  width: 18px;
+  margin-right: 6px;
+}
+
+.similar-job-rating-para {
+  color: #f7fafc;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.similar-job-location-emp-package-container {
+  display: flex;
+}
+
+.similar-job-location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.similar-job-location-icon {
+  height: 20px;
+  width: 20px;
+  color: #f7fafc;
+  margin-right: 10px;
+}
+
+.similar-job-location-para {
+  color: #f7fafc;
+  font-size: 14px;
+}
+
+.similar-job-employee-container {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.similar-job-employee-icon {
+  height: 20px;
+  width: 20px;
+  color: #f7fafc;
+  margin-right: 10px;
+}
+
+.similar-job-employee-para {
+  color: #f7fafc;
+  font-size: 14px;
+}
+
+.similar-job-package-container {
+  margin-left: auto;
+  color: #f7fafc;
+  font-size: 20px;
+}
+
+.similar-job-hr {
+  color: #64748b;
+}
+
+.similar-job-description-heading {
+  color: #f7fafc;
+  font-size: 18px;
+}
+
+.similar-job-description-para {
+  color: #f7fafc;
+  font-size: 14px;
+  width: 95%;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-title {
+    font-size: 22px;
+  }
+
+  .similar-job-rating-para {
+    font-size: 18px;
+  }
+
+  .similar-job-location-para {
+    font-size: 14px;
+  }
+
+  .similar-job-employee-para {
+    font-size: 14px;
+  }
+
+  .similar-job-package-container {
+    font-size: 22px;
+  }
+
+  .similar-job-description-heading {
+    font-size: 28px;
+  }
+
+  .similar-job-description-para {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}

@@ -1,0 +1,252 @@
+.jobs-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-bg-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.job-sm-search-input-container {
+  width: 90%;
+  border: 2px solid #2c364c;
+  height: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-sm-search-input-container {
+    display: none;
+  }
+}
+
+.job-search-input {
+  background-color: transparent;
+  border-width: 0px;
+  width: 90%;
+  outline: none;
+  height: 100%;
+  color: #f8fafc;
+  padding-left: 20px;
+}
+
+.jobs-search-btn {
+  background-color: #202020;
+  border-width: 0px;
+  width: 10%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.job-search-icon {
+  color: #f8fafc;
+  height: 17px;
+  width: 17px;
+}
+
+.jobs-profile-card-retry-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.jobs-profile-card-retry-btn {
+  height: 32px;
+  width: 75px;
+  background-color: #4f46e5;
+  border-width: 0px;
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+.jobs-profile-card-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  min-width: 250px;
+}
+
+.jobs-profile-card-image {
+  height: 50px;
+  width: 50px;
+}
+
+.jobs-profile-card-name {
+  font-size: 22px;
+  color: #6366f1;
+}
+
+.jobs-profile-card-bio {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.jobs-success-profile-filter-container {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-success-profile-filter-container {
+    margin-right: 50px;
+    padding-left: 60px;
+    width: 30%;
+  }
+}
+
+.job-lg-search-input-container {
+  border: 2px solid #2c364c;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+@media screen and (max-width: 767px) {
+  .job-lg-search-input-container {
+    display: none;
+  }
+}
+
+.jobs-job-list-container {
+  width: 100%;
+}
+
+.jobs-failure-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-job-list-container {
+    justify-content: flex-start;
+    width: 90%;
+  }
+}
+
+.jobs-job-ul-container {
+  list-style: none;
+  padding-left: 0px;
+  width: 100%;
+}
+
+.jobs-hr {
+  color: #64748b;
+}
+
+.jobs-filter-type-container {
+  padding: 10px 0px 10px 0px;
+}
+
+.jobs-filter-title {
+  color: #f1f5f9;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.jobs-filter-list-container {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.jobs-filter-item-container {
+  margin-bottom: 10px;
+}
+
+.jobs-filter-input {
+  background-color: #ffffff;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.jobs-filter-label {
+  color: #f1f5f9;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.jobs-failure-heading {
+  color: #f1f5f9;
+}
+.jobs-failure-para {
+  color: #f1f5f9;
+}
+
+.jobs-failure-button {
+  height: 32px;
+  width: 75px;
+  background-color: #4f46e5;
+  border-width: 0px;
+  cursor: pointer;
+  color: #f8fafc;
+}
+
+.jobs-failure-img {
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .jobs-failure-image {
+    width: 70%;
+  }
+}
+
+.jobs-loader-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+
+.jobs-nojob-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.jobs-nojob-image {
+  width: 70%;
+}
+
+@media screen and (max-width: 767px) {
+  .jobs-nojob-image {
+    width: 40%;
+  }
+}
+.jobs-nojob-heading {
+  color: #f1f5f9;
+}
+
+.jobs-no-job-para {
+  color: #f1f5f9;
+}
+
+.jobs-aside-filter-container {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-aside-filter-container {
+    width: 70%;
+  }
+}
